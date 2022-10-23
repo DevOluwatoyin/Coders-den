@@ -197,3 +197,6 @@ let earning2 = report.slice(42, 47);
 let earning3 = report.slice(67, 72) * 12;
 let total = parseInt (earning1) + parseInt(earning2) + parseInt(earning3)
 console.log(total);
+
+
+
