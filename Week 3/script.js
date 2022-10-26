@@ -108,37 +108,37 @@ console.log(today.getTime());
 // Write a script that prompt the user to enter base and height of the triangle
 //and calculate an area of a triangle (area = 0.5 x b x h).
 
-// let b = prompt('Enter base')
-// let h = prompt('Enter height')
-// console.log(0.5 * b * h)
+let b = prompt('Enter base')
+let h = prompt('Enter height')
+console.log(0.5 * b * h)
 
 // Write a script that prompt the user to enter side a, side b, and side c
 //of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-// let sideA = prompt('Enter side A value')
-// let sideB = prompt('Enter side B value')
-// let sideC = prompt('Enter side C value')
-// let total = parseInt(sideA) + parseInt(sideB) + parseInt(sideC)
-// console.log("The perimeter of the triangle is " + total)
+let sideA = prompt('Enter side A value')
+let sideB = prompt('Enter side B value')
+let sideC = prompt('Enter side C value')
+let total = parseInt(sideA) + parseInt(sideB) + parseInt(sideC)
+console.log("The perimeter of the triangle is " + total)
 
 // Get length and width using prompt and calculate an area of rectangle
 //(area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-// let length = prompt("Enter lenght")
-// let width = prompt("Enter width")
-// let l = prompt('Enter length')
-// let w = prompt('Enter width')
-// let area = (l * w)
-// let peri = parseInt(l) + parseInt(w)
-// console.log(area)
-// console.log (2 * peri)
+let length = prompt("Enter lenght")
+let width = prompt("Enter width")
+let l = prompt('Enter length')
+let w = prompt('Enter width')
+let area = (l * w)
+let peri = parseInt(l) + parseInt(w)
+console.log(area)
+console.log (2 * peri)
 
 // Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-//  let r = prompt('enter radius')
-// let pi = 3.14
-// let areaOfCircle = pi * r ** 2
-// let circumferenceOfCircle = 2 * pi * r
-// console.log(areaOfCircle)
-// console.log(circumferenceOfCircle)
+ let r = prompt('enter radius')
+let pi = 3.14
+let areaOfCircle = pi * r ** 2
+let circumferenceOfCircle = 2 * pi * r
+console.log(areaOfCircle)
+console.log(circumferenceOfCircle)
 
 //Calculate the slope, x-intercept and y-intercept of y = 2x -2
 //y = mx + c
@@ -167,12 +167,9 @@ console.log(y);
 // Writ a script that prompt a user to enter hours and rate per hour. Calculate pay
 //of the person?
 
-// let hrs = prompt('enter hours')
-// let rph = prompt('enter rph')
-// let pay = console.log('Your weekly earning is ' + hrs * rph)
-// Enter hours: 40
-// Enter rate per hour: 28
-// Your weekly earning is 1120
+let hrs = prompt('enter hours')
+let rph = prompt('enter rph')
+let pay = console.log('Your weekly earning is ' + hrs * rph)
 
 // If the length of your name is greater than 7 say, your name is long else say your
 //name is short.
@@ -216,8 +213,6 @@ let numOfYears = 1996; //prompt('Enter number of years')
 numOfYears = new Date();
 console.log(numOfYears.getFullYear());
 
-// Enter number of years you live: 100
-// You lived 3153600000 seconds.
 // Create a human readable time format using the Date time object
 let curTime = new Date();
 const year1 = curTime.getFullYear();
